@@ -1,0 +1,37 @@
+<!-- todo.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Шлях к стилям css -->
+</head>
+<body>
+    <header>
+        <h1>Список задач</h1>
+    </header>
+
+    <main>
+        <section id="todo-app">
+            <input type="text" id="new-task" placeholder="Додати нову задачу" />
+            <button onclick="addTask()">Додати задачу</button>
+
+            <ul id="task-list">
+                <!-- Список задач будет будуть відображаться тут -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kabanov Y. 2024</p>
+    </footer>
+
+    <script src="todo.js"></script> 
+</body>
+
+<nav>
+    <a href="todo.html">Список задач</a> | <a href="about.html">О проекте</a>
+</nav>
+
+</html>
